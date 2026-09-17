@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aditya Sharma | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header / Navigation -->
+<header class="header">
+  <nav class="navbar">
+
+    <a href="#home" class="logo">Aditya.</a>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+
+<main>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+
+    <div class="hero-content">
+      <p class="greeting">Hello, I'm</p>
+
+      <h1>Aditya Sharma</h1>
+
+      <h2>Engineering Student & Web Developer</h2>
+
+      <p>
+        I enjoy building responsive websites and learning
+        modern technologies to turn ideas into useful projects.
+      </p>
+
+      <a href="#projects" class="btn">View My Projects</a>
+    </div>
+
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+
+    <div class="section-heading">
+      <p>Get to know me</p>
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-content">
+
+      <div class="about-text">
+        <p>
+          I am an engineering student with an interest in
+          web development, programming and technology.
+        </p>
+
+        <p>
+          I like learning by creating practical projects.
+          My goal is to improve my technical skills while
+          developing clean, user-friendly and responsive
+          websites.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>My Focus</h3>
+        <ul>
+          <li>Web Development</li>
+          <li>Programming</li>
+          <li>Database Management</li>
+          <li>Problem-Solving</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+
+    <div class="section-heading">
+      <p>What I work with</p>
+      <h2>My Skills</h2>
+    </div>
+
+    <!-- Flexbox is used here -->
+    <div class="skills-container">
+
+      <div class="skill">
+        <span>HTML5</span>
+        <span>90%</span>
+      </div>
+
+      <div class="skill">
+        <span>CSS3</span>
+        <span>85%</span>
+      </div>
+
+      <div class="skill">
+        <span>Java</span>
+        <span>75%</span>
+      </div>
+
+      <div class="skill">
+        <span>SQL</span>
+        <span>75%</span>
+      </div>
+
+      <div class="skill">
+        <span>Git</span>
+        <span>65%</span>
+      </div>
+
+      <div class="skill">
+        <span>Responsive Design</span>
+        <span>80%</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+
+    <div class="section-heading">
+      <p>Some of my work</p>
+      <h2>Projects</h2>
+    </div>
+
+    <!-- CSS Grid is used here -->
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <span class="project-number">01</span>
+        <h3>Digital Notice Board</h3>
+        <p>
+          A digital notice board website designed to
+          display and manage important notices digitally.
+        </p>
+        <a href="#">View Project →</a>
+      </article>
+
+
+      <article class="project-card">
+        <span class="project-number">02</span>
+        <h3>Digital pH Meter</h3>
+        <p>
+          An electronics project for measuring pH using
+          voltage-based sensor readings.
+        </p>
+        <a href="#">View Project →</a>
+      </article>
+
+
+      <article class="project-card">
+        <span class="project-number">03</span>
+        <h3>Digital Dice</h3>
+        <p>
+          A digital electronics project that generates
+          and displays random dice patterns.
+        </p>
+        <a href="#">View Project →</a>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+
+    <div class="section-heading">
+      <p>Let's connect</p>
+      <h2>Contact Me</h2>
+    </div>
+
+    <form class="contact-form">
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        >
+      </div>
+
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        >
+      </div>
+
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Enter subject"
+        >
+      </div>
+
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          placeholder="Write your message..."
+          required
+        ></textarea>
+      </div>
+
+
+      <button type="submit" class="btn">Send Message</button>
+
+    </form>
+
+  </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2026 Aditya Sharma. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
